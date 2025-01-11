@@ -55,8 +55,29 @@ public class StaticMethodCalculatorDemo {
 		System.out.println("\nMultiply result " + mul(10, 20, 30));
 
 		System.out.println("\nDivision result " + div(10, 20));
+		
+		System.out.println(diff);
+		
+		main("aimerz");
 
 		System.out.println("\nmain ended"); // 5b. Continues and end here
+	}
+	
+	public static void main(String args) {
+		
+		System.out.println("\n---main started 2---");
+		startCalculator();
+		
+		add(10, 20);
+		
+		int diff = subtract(10, 20);
+		System.out.println("\nSubtract " + diff);
+		
+		System.out.println("\nMultiply " + mul(10, 20, 30));
+		
+		System.out.println("\nDivision " + div(10, 20));
+		
+		System.out.println("\n---main ended 2---");
 	}
 
 }
